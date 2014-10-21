@@ -1,4 +1,7 @@
 codesniffer-deltazend
 =====================
 
-A minor fork of the Zend CodeSniffer standard that gets rid of the 80 character line limit warnings.
+A minor fork of the Zend CodeSniffer standard to better fit practices at Delta Systems.
+The primary change right now is that we drop the 80 character line length limit warning
+(while keeping the 120 character error).  We may introduce other minor changes and custom
+sniffs down the line, but it will stay roughly in line with the ZF1 style guide.
